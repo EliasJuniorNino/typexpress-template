@@ -1,6 +1,6 @@
 import * as express from 'express'
 import { Request, Response } from 'express'
-import IControllerBase from 'Interfaces/IControllerBase'
+import IControllerBase from 'interfaces/IControllerBase'
 
 class HomeController implements IControllerBase {
     public path = '/'

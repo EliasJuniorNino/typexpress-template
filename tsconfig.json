@@ -1,15 +1,16 @@
 {
-  "compilerOptions": {
-    "sourceMap": true,
-    "target": "es6",
-    "module": "commonjs",
-    "outDir": "./dist",
-    "baseUrl": "./src",
-  },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-]
+	"compilerOptions": {
+		"sourceMap": true,
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "./dist",
+		"baseUrl": "./src",
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/database/connection.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
 }
