@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "ts-node src/server.ts",
-		"start": "ts-node dist/server.js",
+		"start": "node dist/src/server.js",
 		"build": "tsc -p ."
 	},
 	"dependencies": {
