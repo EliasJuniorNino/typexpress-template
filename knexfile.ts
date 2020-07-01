@@ -30,9 +30,10 @@ export default {
 	production: {
 		client: 'mysql',
 		connection: {
-			database: 'my_db',
-			user: 'username',
-			password: 'password'
+			host: process.env.DB_HOST || '127.0.0.1',
+			user: process.env.DB_USER,
+			database: process.env.DB_DATABASE,
+			password: process.env.DB_PASSWORD
 		},
 		pool: {
 			min: 2,

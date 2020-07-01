@@ -3,7 +3,7 @@ require('dotenv').config()
 import App from './app'
 
 import * as bodyParser from 'body-parser'
-import loggerMiddleware from './middleware/Logger'
+import defaultMiddleware from './middleware/DefaultMiddleware'
 
 import DefaultController from './controllers/DefaultController'
 
@@ -15,7 +15,7 @@ const app = new App({
 	middleWares: [
 		bodyParser.json(),
 		bodyParser.urlencoded({ extended: true }),
-		loggerMiddleware
+		defaultMiddleware
 	]
 })
 

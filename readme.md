@@ -1,11 +1,20 @@
 # Base project
 
-Base project with TypeScript, Express and Auth.
+Base project with:
+- [x] TypeScript
+- [x] Express
+- [x] Docker
+- [x] Knex
+- [ ] JWT Auth
+- [ ] Jest
+
+## Environment variables:
+- `PORT`:
+- `DB_HOST`:
+- `DB_USER`:
+- `DB_DATABASE`:
+- `DB_PASSWORD`:
 
 ## Development
-- install dependencies: `npm install` or `yarn install`
-- run project: `npm run dev` or `yarn dev`
-
-## Staging
-
-- run docker: `docker-compose up`
+- Install dependencies: `npm install` or `yarn install`
+- Run project: `npm run dev` or `yarn dev`

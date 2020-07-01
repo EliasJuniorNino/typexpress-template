@@ -2,7 +2,7 @@ import * as express from 'express'
 import { Request, Response } from 'express'
 import IControllerBase from 'interfaces/IControllerBase'
 
-class HomeController implements IControllerBase {
+class DefaultController implements IControllerBase {
     public path = '/'
     public router = express.Router()
 
@@ -19,4 +19,4 @@ class HomeController implements IControllerBase {
     }
 }
 
-export default HomeController
+export default DefaultController
