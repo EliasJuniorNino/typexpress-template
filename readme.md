@@ -3,7 +3,7 @@
 Base project with:
 - [x] TypeScript
 - [x] Express
-- [x] Docker
+- [ ] Docker
 - [x] Knex
 - [ ] JWT Auth
 - [ ] Jest
